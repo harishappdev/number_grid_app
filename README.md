@@ -1,17 +1,25 @@
-# number_grid_app
+# Number Grid
 
-A new Flutter project.
+A Flutter application that displays numbers from 1–100 in a dynamic grid layout with highlighting for:
 
-## Getting Started
+- Odd Numbers
+- Even Numbers
+- Prime Numbers
+- Fibonacci Numbers
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+- Dynamic GridView UI
+- Pattern-based number highlighting
+- Real-time UI updates
+- Clean and responsive design
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Technologies Used
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Flutter
+- Dart
+
+## APK Build
+
+```bash
+flutter build apk --split-per-abi
